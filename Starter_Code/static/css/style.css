@@ -8,3 +8,27 @@ body,
 html {
   height: 100%;
 }
+.lightgreen { background: lightgreen; }
+.green { background: green; }
+.darkgreen { background: darkgreen; }
+.orange { background: orange; }
+.red { background: red; }
+.darkred { background: darkred; }
+
+/* Styling for legend */
+.legend {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    font-size: 14px;
+}
+
+/* Styling for legend items */
+.legend i {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
